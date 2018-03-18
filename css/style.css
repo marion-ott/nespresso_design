@@ -74,7 +74,29 @@ table {
     text-decoration: none;
     text-transform: uppercase;
     font-size: 14px;
-    letter-spacing: 1px; }
+    letter-spacing: 1px;
+    transition: ease color 0.20s;
+    position: relative; }
+    .header__navLinks:hover {
+      color: #CC9D49; }
+    .header__navLinks:before {
+      content: "";
+      position: absolute;
+      width: 50%;
+      height: 1px;
+      bottom: -10;
+      left: 0%;
+      right: 15%;
+      background-color: #CC9D49;
+      visibility: hidden;
+      -webkit-transform: scaleX(0);
+      transform: scaleX(0);
+      -webkit-transition: all 0.26s ease-in-out 0s;
+      transition: all 0.26s ease-in-out 0s; }
+    .header__navLinks:hover:before {
+      visibility: visible;
+      -webkit-transform: scaleX(1);
+      transform: scaleX(1); }
   .header__memberContainer {
     display: flex;
     justify-content: space-between;
