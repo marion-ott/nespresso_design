@@ -1,0 +1,302 @@
+.grandsCrus {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 6em 0;
+  &__imgContainer {
+    width: 45%;
+  }
+  &__img {
+    width: 100%;
+  }
+  &__txtContainer {
+    width: 50%;
+    margin-top: 1.5em;
+    margin-left: 2em;
+  }
+  &__mainTitle {
+    width: 85%;
+    font-family: "Playfair";
+    font-size: 45px;
+    font-weight: 600;
+    color: $gold;
+    margin-bottom: 0.6em;
+  }
+  &__txtDescription {
+    width: 85%;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 22px;
+    margin-bottom: 1.8em;
+  }
+  &__CTA {
+    text-decoration: none;
+    color: $black;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    background-color: $gold;
+    padding: 0.6em 1.2em;
+    border-radius: 2px;
+  }
+}
+
+.vertuo {
+  width: 100%;
+  text-align: center;
+  margin-top: 13em;
+  &__mainTitle {
+    font-family: "Playfair";
+    font-size: 45px;
+    font-weight: 600;
+    color: $gold;
+    margin-bottom: 0.6em;
+  }
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  &__imgContainer {
+    width: 50%;
+  }
+  &__txtContainer {
+    width: 50%;
+    text-align: left;
+    margin-top: 2em;
+  }
+  &__imgItem {
+    width: 100%;
+  }
+  &__secondTitle {
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 0.5em
+  }
+  &__txtDescription {
+    margin-top: 1em;
+    line-height: 20px;
+  }
+  &__offerTitle {
+    margin-top: 1em;
+    font-weight: 600;
+  }
+  &__specialOfferContainer {
+    margin-top: 2em;
+    display: flex;
+    width: 100%;
+    align-items: center;
+  }
+  &__specialOfferPricesContainer {
+    width: 30%;
+  }
+  &__specialOfferPrice {
+    font-size: 48px;
+    color: $gold;
+    font-weight: 600;
+  }
+  &__CTA {
+    text-decoration: none;
+    color: $black;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    background-color: $gold;
+    padding: 0.6em 1.2em;
+    border-radius: 2px;
+  }
+}
+
+.confetto {
+  width: 100%;
+  display: flex;
+  text-align: center;
+  margin-top: 10em;
+  &__itemsContainer {
+    width: 33%;
+  }
+  &__mainTitle {
+    font-size: 18px;
+    margin-top: 1em;
+  }
+  &__itemsTitle {
+    font-size: 18px;
+    font-weight: 500;
+    color: $gold;
+    margin-top: 0.3em;
+  }
+  &__itemsPrice {
+    font-weight: 500;
+    margin-top: 1em;
+    margin-bottom: 1.8em;
+  }
+  &__addToCartContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: 0 auto;
+    align-items: center;
+  }
+  &__itemsUpdateQuantityContainer {
+    display: flex;
+    align-items: center;
+  }
+  &__itemsQuantityContainer {
+    background-color: $white;
+    border: solid 1px $gold;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+  }
+  &__itemsQuantity {
+    color: $black;
+    display: inline-block;
+    line-height: 1.5em;
+    text-align: center;
+  }
+  &__addRemoveBtnsContainer {
+    margin-left: 0.6em;
+  }
+  &__addBtnContainer {
+    width: 100%;
+  }
+  &__addBtn {
+    width: 80%;
+    margin-bottom: 0.3em;
+  }
+  &__removeBtn {
+    width: 80%;
+  }
+  &__addCTAcontainer {
+    width: 50%;
+  }
+  &__addCTA {
+    text-decoration: none;
+    color: $black;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    background-color: $gold;
+    padding: 0.6em 1.2em;
+    border-radius: 2px;
+  }
+}
+
+.specials {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  text-align: center;
+  margin-top: 10em;
+  &__itemsContainer {
+    width: 20%;
+    position: relative;
+    border: solid 1px $white;
+    border-radius: 5px;
+    align-items: center;
+  }
+  &__imgContainer {
+    width: 100%;
+    margin: 0 auto;
+    padding: 1em 0;
+  }
+  &__dust {
+    position: absolute;
+    left: -30;
+    top: -50;
+    z-index: -10;
+  }
+  &__productTitle {
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: 600;
+    margin: 1em 0;
+  }
+  &__productPrice {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  &__productCTAcontainer {
+    margin: 2em 0;
+  }
+  &__productCTA {
+    text-decoration: none;
+    color: $black;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    background-color: $gold;
+    padding: 0.6em 1.2em;
+    border-radius: 2px;
+  }
+}
+
+.action {
+  width: 100%;
+  margin-top: 15em;
+  &__container {
+  }
+  &__imgContainer {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  &__img {
+    opacity: 0.3;
+    width: 100%;
+    height: auto;
+    z-index: -10;
+  }
+  &__txtContainer {
+    text-align: center;
+    position: absolute;
+    z-index: 1;
+    margin-top: 8em;
+  }
+  &__quotationMark {
+    font-family: serif;
+    font-weight: 800;
+    color: $gold;
+    font-size: 300px;
+    opacity: 0.5;
+    top: -50;
+    left: 290;
+    position: absolute;
+    z-index: -1;
+  }
+  &__quote {
+    font-family: "Playfair";
+    color: $white;
+    font-size: 45px;
+    font-weight: 600;
+    width: 60%;
+    margin: 0 auto;
+  }
+  &__quoteAuthor {
+    font-size: 18px;
+    text-align: right;
+    width: 50%;
+    margin: 1em auto;
+    line-height: 25px;
+  }
+  &__CTAcontainer {
+    margin-top: 5em;
+  }
+  &__CTA {
+    text-decoration: none;
+    color: $black;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    background-color: $gold;
+    padding: 0.6em 1.2em;
+    border-radius: 2px;
+  }
+}

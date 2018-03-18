@@ -1,0 +1,19 @@
+@import "reset";
+@import "variables";
+@import "fonts";
+@import "header";
+@import "home";
+@import "body";
+@import "footer";
+
+body {
+  background-color: $black;
+  font-family: "Avenir";
+  color: $white;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2em;
+}

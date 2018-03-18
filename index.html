@@ -3,191 +3,337 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="reset.css">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/style.css">
   <title>Capsules de Café et Machines Espresso | Nespresso</title>
 </head>
 <body>
-  <section class="header">
-    <div class="logoHeaderContainer">
-      <img src="img/logo.png" alt="" class="logoHeader">
-    </div>
-    <div class="mainNavContainer">
-      <ul class="mainNav">
-        <li class="mainNavItems"><a href="" class="mainNavLinks">Commander</a></li>
-        <li class="mainNavItems"><a href="" class="mainNavLinks">Nos cafés</a></li>
-        <li class="mainNavItems"><a href="" class="mainNavLinks">Nos machines</a></li>
-        <li class="mainNavItems"><a href="" class="mainNavLinks">Nos boutiques</a></li>
-      </ul>
-    </div>
-    <div class="logInContainer">
-      <a href="" class="logInBtn">Se connecter</a>
-      <img src="img/shopping_cart.png" alt="" class="shoppingCartImg">
-      <span class="shoppingCartItems">(0)</span>
-    </div>
-  </section>
   <section class="container">
-    <div class="homeContainerTxt">
-      <p class="homeSubTitle">Nouvelles variations confetto</p>
-      <h1 class="homeTitle">Profitez d'un Noël<br/> très aromatique.</h1>
-      <p class="homeTxt">Découvrez nos nouvelles variations Confetto : une
-        gourmandise exclusive en édition limitée. Libérez les irréstistibles
-        saveurs des nos trois nouveaux parfums : <span class="orangeTxt">Snowball</span>,
-        <span class="orangeTxt">Licorice</span> & <span class="orangeTxt">Orangette</span>.</p>
-    </div>
-    <div class="homePicContainer">
-      <img class="homePicItem" src="img/christmas_special.jpg" alt="">
-    </div>
-  </section>
-  <section class="container">
-    <div class="grandsCrusImgContainer">
-      <img src="img/img2.png" alt="" class="grandsCrusImg">
-    </div>
-    <div class="grandsCrusTxtContainer">
-      <h3 class="grandCrusTitle">La sélection Grands crus,</br>le café par excellence.</h3>
-      <p class="grandsCrusTxt">Nous ne laissons rien au hasard. La qualité de nos produits
-        est scrupuleusement contrôlée à chaque étape de la production Nespresso.
-        Nos gammes exceptionnelles de mélanges et notre café unique sont
-        créés pour satisfaire les préférences de chacun. </p>
-      <a href="" class="grandsCrusCTA">Découvrez la gamme</a>
-    </div>
-  </section>
-  <h2 class="offerTitle">Les offres incontournables.</h2>
-  <section class="container">
-    <div class="imgVertuoContainer">
-      <img src="img/vertuo.jpg" alt="" class="imgVertuo">
-    </div>
-    <div class="vertuoTxtContainer">
-      <h3 class="vertuoTitle">Vertuo<span class="OrangeTxt">Plus</span></h3>
-      <h4 class="vertuoSubTitle">Édition Deluxe Black</h4>
-      <p class="vertuoTxt">VertuoPlus est notre dernière innovation qui vous offre
-      toute l’expérience Nespresso en grande tasse : le choix, la simplicité et
-      le plaisir. Avec la nouvelle technologie de centrifusion, réalisez une
-      extraction douce du café, vous offrant un résultat en tasse unique, intense
-      et généreux, grâce à une seule pression.</p>
-      <p class="vertuoOfferTitle">Votre machine Vertuo<span class="OrangeTxt">Plus</span> et un assortiment<br/>
-      de 150 capsules “Grands Crus”.</p>
-      <div class="vertuoOfferContainer">
-        <div class="offerPricesContainer">
-          <h3 class="offerPrice">179€</h3>
-          <p class="offerOldPrice">au lieu de 280€</p>
+    <header class="header">
+      <div class="header__logoContainer">
+        <img src="img/logo.png" alt="" class="header__logo">
+      </div>
+      <div class="header__navContainer">
+        <ul class="header__navList">
+          <li class="header__navItems">
+            <a href="#" class="header__navLinks">Commander</a>
+          </li>
+          <li class="header__navItems">
+            <a href="#" class="header__navLinks">Nos cafés</a>
+          </li>
+          <li class="header__navItems">
+            <a href="#" class="header__navLinks">Nos machines</a>
+          </li>
+          <li class="header__navItems">
+            <a href="#" class="header__navLinks">Nos boutiques</a>
+          </li>
+        </ul>
+      </div>
+      <div class="header__memberContainer">
+        <div class="header__logInContainer">
+          <a href="#" class="header__logInBtn">Se connecter</a>
         </div>
-        <a href="" class="offerCTA">Profitez de cette offre</a>
+        <div class="header__shoppingContainer">
+          <img class="header__shoppingCartIcon" src="img/shopping_cart.png" alt="">
+          <span class="header__shoppingCartNumber">(0)</span>
+        </div>
+      </div>
+    </header>
+    <div class="home">
+      <div class="home__txtContainer">
+        <p class="home__preTitle">Nouvelles variations confetto</p>
+        <h1 class="home__mainTitle">Profitez d'un Noël très aromatique.</h1>
+        <p class="home__subTitle">Découvrez nos nouvelles variations Confetto : une
+          gourmandise exclusive en édition limitée. Libérez les irréstistibles
+          saveurs des nos trois nouveaux parfums : <span class="goldenTxt">Snowball</span>,
+          <span class="goldenTxt">Licorice</span> & <span class="goldenTxt">Orangette</span>.
+        </p>
+        <div class="home__CTAcontainer">
+          <a href="#" class="home__CTA">
+            <img src="img/arrow.png" alt="" class="home__CTAimg">
+          </a>
+        </div>
+      </div>
+      <div class="home__pictureContainer">
+        <img class="home__pictureItem" src="img/home_img.png" alt="">
+      </div>
+    </div>
+    <div class="grandsCrus">
+      <div class="grandsCrus__imgContainer">
+        <img class="grandsCrus__img" src="img/grands_crus.png" alt="">
+      </div>
+      <div class="grandsCrus__txtContainer">
+        <h3 class="grandsCrus__mainTitle">La sélection Grand Crus, le café par excellence.</h3>
+        <p class="grandsCrus__txtDescription">
+          Nous ne laissons rien au hasard. La qualité de nos produits
+          est scrupuleusement contrôlée à chaque étape de la production Nespresso.
+          Nos gammes exceptionnelles de mélanges et notre café unique sont
+          créés pour satisfaire les préférences de chacun.
+        </p>
+        <a href="#" class="grandsCrus__CTA">Découvrez la gamme</a>
+      </div>
+    </div>
+    <div class="vertuo">
+      <h2 class="vertuo__mainTitle">Les offres incontournables.</h2>
+      <div class="vertuo__container">
+        <div class="vertuo__imgContainer">
+          <img class="vertuo__imgItem" src="img/vertuo.png" alt="">
+        </div>
+        <div class="vertuo__txtContainer">
+          <h3 class="vertuo__secondTitle">Vertuo<span class="goldenTxt">Plus</span></h3>
+          <h4 class="vertuo__subTitle">Édition Deluxe Black</h4>
+          <p class="vertuo__txtDescription">
+            VertuoPlus est notre dernière innovation qui vous offre
+            toute l’expérience Nespresso en grande tasse : le choix, la simplicité et
+            le plaisir. Avec la nouvelle technologie de centrifusion, réalisez une
+            extraction douce du café, vous offrant un résultat en tasse unique, intense
+            et généreux, grâce à une seule pression.
+          </p>
+          <p class="vertuo__offerTitle">
+            Votre machine Vertuo<span class="goldenTxt">Plus</span> et un assortiment
+            de 150 capsules “Grands Crus”.
+          </p>
+          <div class="vertuo__specialOfferContainer">
+            <div class="vertuo__specialOfferPricesContainer">
+              <h3 class="vertuo__specialOfferPrice">179€</h3>
+              <p class="vertuo__specialOfferPreviousPrice">au lieu de 280€</p>
+            </div>
+            <div class="vertuo__CTAcontainer">
+              <a href="#" class="vertuo__CTA">Profitez de cette offre</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="confetto">
+      <div class="confetto__itemsContainer">
+        <div class="confetto__imgContainer">
+          <img src="img/snowball.png" alt="" class="confetto_img">
+        </div>
+        <div class="confetto__txtContainer">
+          <h3 class="confetto__mainTitle">Variation Confetto</h3>
+          <h4 class="confetto__itemsTitle">Snowball</h4>
+          <p class="confetto__itemsPrice">0,45€</p>
+        </div>
+        <div class="confetto__addToCartContainer">
+          <div class="confetto__itemsUpdateQuantityContainer">
+            <div class="confetto__itemsQuantityContainer">
+              <p class="confetto__itemsQuantity">0</p>
+            </div>
+            <div class="confetto__addRemoveBtnsContainer">
+              <div class="confetto__addBtnContainer">
+                <img src="img/UP.png" alt="" class="confetto__addBtn">
+              </div>
+              <div class="confetto__removeBtnContainer">
+                <img src="img/DOWN.png" alt="" class="confetto__removeBtn">
+              </div>
+            </div>
+          </div>
+          <div class="confetto__addCTAcontainer">
+            <a href="#" class="confetto__addCTA">Ajouter</a>
+          </div>
+        </div>
+      </div>
+      <div class="confetto__itemsContainer">
+        <div class="confetto__imgContainer">
+          <img src="img/orangette.png" alt="" class="confetto_img">
+        </div>
+        <div class="confetto__txtContainer">
+          <h3 class="confetto__mainTitle">Variation Confetto</h3>
+          <h4 class="confetto__itemsTitle">Orangette</h4>
+          <p class="confetto__itemsPrice">0,45€</p>
+        </div>
+        <div class="confetto__addToCartContainer">
+          <div class="confetto__itemsUpdateQuantityContainer">
+            <div class="confetto__itemsQuantityContainer">
+              <p class="confetto__itemsQuantity">0</p>
+            </div>
+            <div class="confetto__addRemoveBtnsContainer">
+              <div class="confetto__addBtnContainer">
+                <img src="img/UP.png" alt="" class="confetto__addBtn">
+              </div>
+              <div class="confetto__removeBtnContainer">
+                <img src="img/DOWN.png" alt="" class="confetto__removeBtn">
+              </div>
+            </div>
+          </div>
+          <div class="confetto__addCTAcontainer">
+            <a href="#" class="confetto__addCTA">Ajouter</a>
+          </div>
+        </div>
+      </div>
+      <div class="confetto__itemsContainer">
+        <div class="confetto__imgContainer">
+          <img src="img/licorice.png" alt="" class="confetto_img">
+        </div>
+        <div class="confetto__txtContainer">
+          <h3 class="confetto__mainTitle">Variation Confetto</h3>
+          <h4 class="confetto__itemsTitle">Licorice</h4>
+          <p class="confetto__itemsPrice">0,45€</p>
+        </div>
+        <div class="confetto__addToCartContainer">
+          <div class="confetto__itemsUpdateQuantityContainer">
+            <div class="confetto__itemsQuantityContainer">
+              <p class="confetto__itemsQuantity">0</p>
+            </div>
+            <div class="confetto__addRemoveBtnsContainer">
+              <div class="confetto__addBtnContainer">
+                <img src="img/UP.png" alt="" class="confetto__addBtn">
+              </div>
+              <div class="confetto__removeBtnContainer">
+                <img src="img/DOWN.png" alt="" class="confetto__removeBtn">
+              </div>
+            </div>
+          </div>
+          <div class="confetto__addCTAcontainer">
+            <a href="#" class="confetto__addCTA">Ajouter</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="specials">
+      <div class="specials__itemsContainer">
+        <img src="img/chocolate_dust.png" alt="" class="specials__dust">
+        <div class="specials__imgContainer">
+          <img src="img/chocolate.png" alt="" class="specials__chocolateImg">
+        </div>
+        <div class="specials__txtContainer">
+          <h3 class="specials__productTitle">Carrés de Chocolat noir<br/> aux pépites de framboise</h3>
+          <p class="specials__productPrice">7,50€</p>
+          <div class="specials__productCTAcontainer">
+            <a href="#" class="specials__productCTA">Commander</a>
+          </div>
+        </div>
+      </div>
+      <div class="specials__itemsContainer">
+        <img src="img/pixie_dust.png" alt="" class="specials__dust">
+        <div class="specials__imgContainer">
+          <img src="img/pixie.png" alt="" class="specials__PixieImg">
+        </div>
+        <div class="specials__txtContainer">
+          <h3 class="specials__productTitle">PIXIE Magimix<br/>Carmin</h3>
+          <p class="specials__productPrice">149€</p>
+          <div class="specials__productCTAcontainer">
+            <a href="#" class="specials__productCTA">Commander</a>
+          </div>
+        </div>
+      </div>
+      <div class="specials__itemsContainer">
+        <img src="img/coffret_dust.png" alt="" class="specials__dust">
+        <div class="specials__imgContainer">
+          <img src="img/coffret.png" alt="" class="specials__coffretImg">
+        </div>
+        <div class="specials__txtContainer">
+          <h3 class="specials__productTitle">Coffret Espresso<br/>100 capsules</h3>
+          <p class="specials__productPrice">37,50€</p>
+          <div class="specials__productCTAcontainer">
+            <a href="#" class="specials__productCTA">Commander</a>
+          </div>
+        </div>
+      </div>
+      <div class="specials__itemsContainer">
+        <img src="img/aerocinno_dust.png" alt="" class="specials__dust">
+        <div class="specials__imgContainer">
+          <img src="img/aerocinno.png" alt="" class="specials__aerocinnoImg">
+        </div>
+        <div class="specials__txtContainer">
+          <h3 class="specials__productTitle">Aerocinno 3<br/>Rouge</h3>
+          <p class="specials__productPrice">70€</p>
+          <div class="specials__productCTAcontainer">
+            <a href="#" class="specials__productCTA">Commander</a>
+          </div>
+        </div>
       </div>
     </div>
   </section>
-  <section class="confettoSectionContainer">
-    <div class="confettoItemsContainer">
-      <img src="img/SNOWBALL1.png" alt="" class="confettoItemsImg">
-      <div class="confettoItemsTxtContainer">
-        <h3 class="confettoTitle">Variation Confetto</h3>
-        <h3 class="confettoTitleItems">Snowball</h3>
-        <p class="confettoItemsPrice">0,45€</p>
+  <section class="action">
+    <div class="action__txtContainer">
+      <span class="action__quotationMark">"</span>
+      <h2 class="action__quote">Recycler nos capsules c’est agir pour protéger
+        notre premier fournisseur.</h2>
+      <p class="action__quoteAuthor">Arnaud Deschamps,<br>Directeur Général Nespresso France</p>
+      <div class="action__CTAcontainer">
+        <a href="#" class="action__CTA">Nos engagements</a>
       </div>
     </div>
-    <div class="confettoItemsContainer">
-      <img src="img/ORANGETTE1.png" alt="" class="confettoItemsImg">
-      <div class="confettoItemsTxtContainer">
-        <h3 class="confettoTitle">Variation Confetto</h3>
-        <h3 class="confettoTitleItems">Orangette</h3>
-        <p class="confettoItemsPrice">0,45€</p>
-      </div>
+    <div class="action__imgContainer">
+      <img src="img/environment.png" alt="" class="action__img">
     </div>
-    <div class="confettoItemsContainer">
-      <img src="img/LICORICE1.png" alt="" class="confettoItemsImg">
-      <div class="confettoItemsTxtContainer">
-        <h3 class="confettoTitle">Variation Confetto</h3>
-        <h3 class="confettoTitleItems">Licorice</h3>
-        <p class="confettoItemsPrice">0,45€</p>
-      </div>
-    </div>
-  </section>
-  <section class="sectionSpecialsContainer">
-    <div class="specialsItemsContainer">
-      <div class="specialsItemsImgContainer">
-        <img src="img/chocolat.png" alt="" class="specialsItemsChocolate">
-      </div>
-      <div class="specialsItemsTxtContainer">
-        <h3 class="specialsItemsTitle">Carrés de Chocolat noir</br>
-        pépites de framboise</h3>
-        <p class="specialsItemsPrice">7,50€</p>
-        <a href="" class="specialsItemsCTA">Commander</a>
-      </div>
-    </div>
-    <div class="specialsItemsContainer">
-      <div class="specialsItemsImgContainer">
-        <img src="img/pixie_magimix.png" alt="" class="specialsItemsImg">
-      </div>
-      <div class="specialsItemsTxtContainer">
-        <h3 class="specialsItemsTitle">PIXIE Magimix</br>
-        Carmin</h3>
-        <p class="specialsItemsPrice">149€</p>
-        <a href="" class="specialsItemsCTA">Commander</a>
-      </div>
-    </div>
-    <div class="specialsItemsContainer">
-      <div class="specialsItemsImgContainer">
-        <img src="img/capsules200.png" alt="" class="specialsItemsImg">
-      </div>
-      <div class="specialsItemsTxtContainer">
-        <h3 class="specialsItemsTitle">Coffret Espresso</br>
-        100 capsules</h3>
-        <p class="specialsItemsPrice">37,50€</p>
-        <a href="" class="specialsItemsCTA">Commander</a>
-      </div>
-    </div>
-    <div class="specialsItemsContainer">
-      <div class="specialsItemsImgContainer">
-        <img src="img/aerocinno.png" alt="" class="specialsItemsImg">
-      </div>
-      <div class="specialsItemsTxtContainer">
-        <h3 class="specialsItemsTitle">AEROCINNO 3</br>
-        Rouge</h3>
-        <p class="specialsItemsPrice">70€</p>
-        <a href="" class="specialsItemsCTA">Commander</a>
-      </div>
-    </div>
-  </section>
-  <section>
-    <!-- <img class="costaImg" src="img/costa.png" alt="">
-    <h3 class="quote">Recycler nos capsules c’est agir pour</br>
-    protéger notre premier fournisseur.</h3> -->
   </section>
   <footer class="footer">
-    <div class="footerContainer">
-      <div class="footerLogoContainer">
-        <img src="img/logo.png" alt="" class="footerLogo">
+    <div class="footer__container">
+      <div class="footer__logoContainer">
+        <img src="img/logo.png" alt="" class="footer__logo">
       </div>
-      <div class="footerTxtContainer">
-        <div class="footerSocialRow">
-          <h3 class="footerTitle">Suivez-vous</h3>
-          <a href="#facebook"><img src="img/facebook1.png" alt="" class="socialItems"></a>
-          <a href="#instagram"><img src="img/instagram1.png" alt="" class="socialItems"></a>
-          <a href="#linkedin"><img src="img/linkedin1.png" alt="" class="socialItems"></a>
-          <a href="#googleplus"><img src="img/google+1.png" alt="" class="socialItems"></a>
-          <a href="#pinterest"><img src="img/pinterest1.png" alt="" class="socialItems"></a>
+      <div class="footer__txtContainer">
+        <div class="footer__socialContainer">
+          <h3 class="footer__title">Suivez-vous</h3>
+          <div class="footer__socialIconsContainer">
+            <div class="footer__socialImgContainer">
+              <a href="#" class="footer__links">
+                <img src="img/facebook_icon.png" alt="" class="footer__socialImgs">
+              </a>
+            </div>
+            <div class="footer__socialImgContainer">
+              <a href="#" class="footer__links">
+                <img src="img/instagram_icon.png" alt="" class="footer__socialImgs">
+              </a>
+            </div>
+            <div class="footer__socialImgContainer">
+              <a href="#" class="footer__links">
+                <img src="img/linkedin_icon.png" alt="" class="footer__socialImgs">
+              </a>
+            </div>
+            <div class="footer__socialImgContainer">
+              <a href="#" class="footer__links">
+                <img src="img/google_icon.png" alt="" class="footer__socialImgs">
+              </a>
+            </div>
+            <div class="footer__socialImgContainer">
+              <a href="#" class="footer__links">
+                <img src="img/pinterest_icon.png" alt="" class="footer__socialImgs">
+              </a>
+            </div>
+          </div>
         </div>
-        <div class="footerTxtRows">
-          <h3 class="footerTitle">Informations</h3>
-          <ul class="footerRow">
-            <a href=""><li class="footerRowItems">À propos</li></a>
-            <a href=""><li class="footerRowItems">Nous contacter</li></a>
-            <a href=""><li class="footerRowItems">Points de vente</li></a>
-            <a href=""><li class="footerRowItems">Entreprise durable</li></a>
-            <a href=""><li class="footerRowItems">Carrières</li></a>
+        <div class="footer__informationContainer">
+          <h3 class="footer__title">Information</h3>
+          <ul class="footer__list">
+            <li class="footer__items">
+              <a href="#" class="footer__links">À propos</a>
+            </li>
+            <li class="footer__items">
+              <a href="#" class="footer__links">Nous contacter</a>
+            </li>
+            <li class="footer__items">
+              <a href="#" class="footer__links">Points de vente</a>
+            </li>
+            <li class="footer__items">
+              <a href="#" class="footer__links">Entreprise durable</a>
+            </li>
+            <li class="footer__items">
+              <a href="#" class="footer__links">Carrières</a>
+            </li>
           </ul>
         </div>
-        <div class="footerTxtRows">
-          <h3 class="footerTitle">Presse</h3>
-          <ul class="footerRow">
-            <a href=""><li class="footerRowItems">Communiqués</li></a>
-            <a href=""><li class="footerRowItems">Articles</li></a>
-            <a href=""><li class="footerRowItems">Contact</li></a>
+        <div class="footer__presseContainer">
+          <h3 class="footer__title">Presse</h3>
+          <ul class="footer__list">
+            <li class="footer__items">
+              <a href="#" class="footer__links">Communiqués</a>
+            </li>
+            <li class="footer__items">
+              <a href="#" class="footer__links">Articles</a>
+            </li>
+            <li class="footer__items">
+              <a href="#" class="footer__links">Contact</a>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
-    <p class="footerDownRow1"><a class="footerDownRow1Items" href="">Mentions légales</a>    |   <a class="footerDownRow1Items" href="">Conditions générales de vente</a>    |    <a class="footerDownRow1Items" href="">Plan du site</a></p>
-    <p class="footerDownRow2">Nestlé Nespresso S.A. 2016</p>
+    <p class="footer__legals">Mentions légales | Conditions générales de vente | Plan du site</p>
+    <p class="footer__legals">Nestlé Nespresso S.A. 2016</p>
   </footer>
 </body>
+  <script src="script.js" type="text/javascript"></script>
 </html>
